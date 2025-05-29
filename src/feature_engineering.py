@@ -43,13 +43,3 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     features = pd.concat([total_mutations, type_counts, gene_counts, silent_frac, del_ratio], axis=1)
 
     return features
-
-
-train_df = pd.read_csv(TRAIN_FILE)
-train_df = train_df.drop(columns='Label')
-train_features = build_features(train_df)
-
-test_df = pd.read_csv(TEST_FILE)
-test_features = build_features(test_df)
-
-genes = pd.read_csv(GENE_LIST)
