@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from config import *
 
 
-def plot_mutation_distribution(train_df: pd.DataFrame, test_df: pd.DataFrame) -> None:
+def plot_mutation_distribution(train_df: pd.DataFrame, test_df: pd.DataFrame, show=False) -> None:
     """
     Create and save a bar plot showing mutation counts by Variant_Classification
     in a specified order (TCGA-style). Combines train and test datasets.
@@ -28,6 +28,9 @@ def plot_mutation_distribution(train_df: pd.DataFrame, test_df: pd.DataFrame) ->
     plt.ylabel("Mutation Count")
     plt.title("Mutation types in specified order (GROUP_MAP)")
     plt.tight_layout()
-    plt.show()
+
+    if show:
+        plt.show()
+
     plt.savefig(out_file, dpi=150)
     print(f"Plot saved to: {out_file}")

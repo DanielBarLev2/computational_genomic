@@ -3,6 +3,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_DIR = PROJECT_ROOT / "data"
 PLOT_DIR = PROJECT_ROOT / "plots"
+FEATURE_DIR = PROJECT_ROOT / "features"
 TRAIN_FILE = DATA_DIR / "muts" / "train_muts_data.csv"
 TEST_FILE = DATA_DIR / "muts" / "test_muts_data.csv"
 GENE_LIST = DATA_DIR / "100_genes.csv"
