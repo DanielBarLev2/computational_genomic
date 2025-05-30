@@ -1,4 +1,4 @@
-# computational_genomic# Cancer Subtype Classification 🧬
+# computational_genomic Cancer Subtype Classification 🧬
 
 This project builds a mutation-based classifier to predict cancer subtypes (HNSC vs LUSC) from genomic variant data.
 ## 🔧 Project Structure
