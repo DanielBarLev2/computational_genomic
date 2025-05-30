@@ -23,7 +23,6 @@ project_root/
 
 ## 📦 Requirements
 Python 3.8+
-pandas, scikit-learn, numpy, etc.
 
 Set up the environment using Conda:
 
