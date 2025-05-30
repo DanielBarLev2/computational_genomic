@@ -1,4 +1,4 @@
-# computational_genomic# Cancer Subtype Classification 🧬
+# Cancer Subtype Classification 🧬
 
 This project builds a mutation-based classifier to predict cancer subtypes (HNSC vs LUSC) from genomic variant data.
 ## 🔧 Project Structure
@@ -23,7 +23,6 @@ project_root/
 
 ## 📦 Requirements
 Python 3.8+
-pandas, scikit-learn, numpy, etc.
 
 Set up the environment using Conda:
 
@@ -37,7 +36,9 @@ conda activate genomic-classifier
 **test_muts_data.csv**: mutation records for inference<br>
 **train_feats.csv**: numeric precomputed gene features<br>
 **test_feats.csv**: numeric precomputed gene features<br>
+**train_meth_data.csv** raw meth records with case IDs and labels<br>
+**test_meth_data.csv** meth records for inference<br>
 
 ## 📤 Output Files
-**predictions.csv**: contains final case-level predictions for the test set of task 1
+**predictions.csv**: contains final case-level predictions for the test set of task 1<br>
 **predictions2.csv**: contains final case-level predictions for the test set of task 2
