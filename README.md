@@ -36,6 +36,8 @@ conda activate genomic-classifier
 **test_muts_data.csv**: mutation records for inference<br>
 **train_feats.csv**: numeric precomputed gene features<br>
 **test_feats.csv**: numeric precomputed gene features<br>
+**train_meth_data.csv** raw meth records with case IDs and labels<br>
+**test_meth_data.csv** meth records for inference<br>
 
 ## 📤 Output Files
 **predictions.csv**: contains final case-level predictions for the test set of task 1<br>
