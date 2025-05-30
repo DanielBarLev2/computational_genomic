@@ -38,5 +38,5 @@ conda activate genomic-classifier
 **test_feats.csv**: numeric precomputed gene features<br>
 
 ## 📤 Output Files
-**predictions.csv**: contains final case-level predictions for the test set of task 1
+**predictions.csv**: contains final case-level predictions for the test set of task 1<br>
 **predictions2.csv**: contains final case-level predictions for the test set of task 2
